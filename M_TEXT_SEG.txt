@@ -1,0 +1,111 @@
+001111_00000_00010_00010010_00110100  //lui $2, 0x1234
+001101_00010_00011_01010110_01111000  //ori $3, $2, 0x5678
+001111_00000_00100_00010001_00100010  //lui $4, 0x1122 
+001101_00100_00101_00110011_01000100  //ori $5, $4, 0x3344
+
+000000_00011_00101_00110_00000_100011  //subu $6, $3, $5
+000000_00011_00101_00111_00000_100110  //xor $7, $3, $5
+001111_00000_00010_10000000_00000000  //lui $2, 0x8000
+001111_00000_00100_10000000_00000000  //lui $4, 0x8000
+
+000101_00010_00100_00000000_00000010  //bne $2, $4, 0x2
+000101_00010_00011_00000000_00000010  //bne $2, $3, 0x2
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+000110_00011_00000_00000000_00000010  //blez $3, 0x2
+000110_00010_00000_00000000_00000010  //blez $2, 0x2
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+000000_00000_00010_01000_00100_000011  //sra $8, $2, 0x4
+001101_00000_01001_00000000_01010000  //ori $9, $0, 0x50
+000000_01001_00000_00000_00000_001001  //jalr $9
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+001101_11111_11111_00000000_00000000  //ori $31, $31, 0x0
+001100_00011_01010_10000111_01100101  //andi $10, $3, 0x8765
+001011_01001_01011_10000000_00000000  //sltiu $11, $9, 0x8000
+001011_01001_01100_00000000_00000000  //sltiu $12, $9, 0x0000
+
+101000_01001_00011_11111111_11111110  //sb $3, -2($9)
+100011_01001_01101_11111111_11111100  //lw $13, -4($9)
+101011_01001_00011_11111111_11111100  //sw $3, -4($9)
+100100_01001_01110_11111111_11111101  //lbu $14, -3($9)
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+xxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx
+
